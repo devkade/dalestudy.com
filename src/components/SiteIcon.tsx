@@ -1,5 +1,5 @@
 import { Icon, type IconProps } from "daleui";
-import { Brain, Palette, PenLine, Puzzle } from "lucide-react";
+import { Brain, Laptop, Palette, PenLine, Puzzle } from "lucide-react";
 import type { SiteIconName } from "../i18n/types";
 
 /** daleui 아이콘 세트에 없는 이름은 동일한 lucide 아이콘을 daleui Icon과 같은 규격으로 그린다 */
@@ -8,6 +8,7 @@ const extraIcons = {
   brain: Brain,
   penLine: PenLine,
   puzzle: Puzzle,
+  laptop: Laptop,
 } as const;
 
 const sizeRem = { xs: "0.75rem", sm: "1rem", md: "1.25rem", lg: "1.5rem" } as const;

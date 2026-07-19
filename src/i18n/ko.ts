@@ -40,7 +40,7 @@ export const ko: Messages = {
         desc: "봇이 매주 대화 상대를 자동으로 매칭해 줍니다. 코드 얘기든 커리어 고민이든, 주제는 자유입니다.",
       },
       {
-        icon: "globe",
+        icon: "laptop",
         title: "모각코",
         desc: "상시 열려 있는 음성 채널에서 각자 작업합니다. 혼자가 아니라는 느낌이 꾸준함을 만듭니다.",
       },
@@ -50,16 +50,95 @@ export const ko: Messages = {
         desc: "발표와 네트워킹이 있는 정기 모임입니다. 어디에 살든 참여할 수 있습니다.",
       },
     ],
+    showcaseTitle: "우리가 만든 오픈소스",
+    showcaseSub:
+      "참여의 결과는 말이 아니라 제품으로 남습니다. 모두 오픈소스로 공개되어 있고, 지금도 발전하고 있습니다.",
+    showcase: [
+      {
+        title: "달레 UI 디자인시스템",
+        desc: "한국어 환경에 특화된 오픈소스 React 디자인 시스템. 실제 프로젝트에서 사용됩니다.",
+        host: "daleui.com",
+        url: "https://www.daleui.com",
+      },
+      {
+        title: "리더보드",
+        desc: "리트코드 스터디의 참여 현황을 시각화하고 수료증을 발급하는 동기 부여 도구.",
+        host: "leaderboard.dalestudy.com",
+        url: "https://leaderboard.dalestudy.com",
+      },
+      {
+        title: "리트코드 스터디 사이트",
+        desc: "커리큘럼과 기수 일정을 담은 스터디 전용 사이트.",
+        host: "leetcode.dalestudy.com",
+        url: "https://leetcode.dalestudy.com",
+      },
+      {
+        title: "챗봇",
+        desc: "커뮤니티에 대한 질문에 답해주는 채팅 UI.",
+        host: "chat.dalestudy.com",
+        url: "https://chat.dalestudy.com",
+      },
+      {
+        title: "커피챗",
+        desc: "매주 대화 상대를 자동으로 매칭해 주는 봇. 슬래시 명령어 하나로 새로운 동료를 만납니다.",
+        host: "coffee.dalestudy.com",
+        url: "https://coffee.dalestudy.com",
+      },
+      {
+        title: "스케줄러",
+        desc: "바쁜 멤버들의 가능한 시간대를 모아 모임 일정을 손쉽게 조율하는 도구.",
+        host: "schedule.dalestudy.com",
+        url: "https://schedule.dalestudy.com",
+      },
+      {
+        title: "에이전트 스킬",
+        desc: "효과적인 협업을 위한 AI 에이전트 스킬 모음.",
+        host: "skills.sh/dalestudy/skills",
+        url: "https://www.skills.sh/dalestudy/skills",
+      },
+    ],
+    faqTitle: "자주 묻는 질문",
+    faqs: [
+      {
+        q: "참가 비용이 있나요?",
+        a: "아니요, 모든 활동은 무료입니다. 달레 스터디는 광고나 유료 멤버십 없이 후원으로 운영되는 비영리 커뮤니티입니다.",
+      },
+      {
+        q: "어느 정도 실력이 필요한가요?",
+        a: "실력의 문턱은 없습니다. 예비 개발자, 주니어, 커리어 전환을 준비하는 분까지 서로 다른 출발점을 존중합니다. 기여하려는 마음이면 충분합니다.",
+      },
+      {
+        q: "직장인도 참여할 수 있나요?",
+        a: "네. 평일에는 Discord와 GitHub에서 비동기로 소통하고, 실시간 모임은 주말 프라임 타임(한국 토요일 아침, 북미 일요일 밤)에 열려 일과 병행하기 좋습니다.",
+      },
+      {
+        q: "해외에 살아도 참여할 수 있나요?",
+        a: "물론입니다. 모든 활동이 온라인으로 진행되고, 한국과 북미 시간대를 함께 고려해 일정이 잡힙니다. 실제로 여러 나라의 멤버들이 함께하고 있습니다.",
+      },
+      {
+        q: "시간을 얼마나 쏟아야 하나요?",
+        a: "프로그램마다 다릅니다. 리트코드 스터디는 매주 5문제, 블로그 스터디는 매주 글 한 편이 기준입니다. 무리하지 않고 자신의 속도로 꾸준히 하는 것을 가장 중요하게 생각합니다.",
+      },
+      {
+        q: "어떻게 시작하나요?",
+        a: "Discord에 가입해 인사를 남기면 됩니다. 기수제 스터디는 모집 공지에 신청하고, 프로젝트와 커뮤니티 활동은 가입 즉시 참여할 수 있습니다.",
+      },
+    ],
   },
   about: {
     title: "소개",
     intro: "달레 스터디는 개발자들이 함께 배우고, 만들고, 성장하는 오픈소스 커뮤니티입니다.",
     missionLabel: "미션",
-    missionBody:
-      "오픈소스 프로젝트를 통해 개발자들이 실무처럼 협업하며 성장하도록 돕는다. 혼자서는 얻기 어려운 코드 리뷰, 협업 프로세스, 커뮤니케이션 경험을 커뮤니티 안에서 자연스럽게 쌓을 수 있습니다.",
+    missionMain: "오픈소스 프로젝트를 통해 개발자들이 실무처럼 협업하며 성장하도록 돕는다.",
+    missionSubs: [
+      "달레 스터디는 오픈소스 프로젝트를 중심으로 현업과 유사한 개발 경험을 제공하는 협업 학습 커뮤니티입니다. 팀을 이루어 코드 리뷰, 설계, 테스트, 배포, 협업까지 개발 전 과정을 직접 경험하고, 완성된 프로젝트는 실제로 동작하는 서비스로 공개되어 실질적인 포트폴리오가 됩니다.",
+    ],
     visionLabel: "비전",
-    visionBody:
-      "실력이나 배경과 관계없이 누구나 기여자가 될 수 있는 커뮤니티. 받은 도움을 다시 나누는 선순환이 커뮤니티를 지속 가능하게 만듭니다.",
+    visionMain:
+      "개발자가 함께 배우고, 성장하고, 서로 이끄는 지속 가능한 오픈소스 기반 학습 생태계를 만든다.",
+    visionSubs: [
+      "프로젝트는 일회성 학습으로 끝나지 않고 실제 제품처럼 지속적으로 발전하며, 깃허브와 디스코드를 기반으로 지역과 배경에 관계없이 누구나 참여할 수 있습니다. 여기서 성장한 구성원이 멘토와 리뷰어로 돌아와 다음 세대를 이끄는 선순환을 만들어 갑니다.",
+    ],
     photoSrc: "/images/community/discord-rooms.png",
     photoAlt: "주말 음성 채널에 모인 멤버들",
     photoCaption: "어느 토요일의 음성 채널, 회의실이 가득 찼습니다",
@@ -68,17 +147,20 @@ export const ko: Messages = {
       {
         icon: "thumbsUp",
         title: "자율과 존중",
-        desc: "누구도 강요하지 않습니다. 각자의 속도와 방식이 존중받는 공간을 지킵니다.",
+        summary:
+          "스스로 선택하고 책임지며 성장합니다. 서로 다른 출발점을 존중하기에 누구나 부담 없이 질문하고 도전할 수 있습니다.",
       },
       {
         icon: "messageCircle",
         title: "소통과 협업",
-        desc: "혼자 잘하는 것보다 함께 잘하는 법을 배웁니다. 리뷰와 대화가 성장의 도구입니다.",
+        summary:
+          "깃허브와 디스코드로 비동기 소통과 협업을 연습하며, 혼자서는 얻기 힘든 소프트 스킬과 실무 노하우를 쌓습니다.",
       },
       {
         icon: "heartHandshake",
         title: "기여와 공유",
-        desc: "받은 도움을 다시 나눕니다. 작은 기여가 모여 커뮤니티의 선순환을 만듭니다.",
+        summary:
+          "작은 기여가 모여 프로젝트와 기여자를 함께 성장시키고, 받은 도움을 되돌려주는 선순환이 커뮤니티를 지속 가능하게 만듭니다.",
       },
     ],
     story: {
@@ -144,6 +226,11 @@ export const ko: Messages = {
         desc: "커뮤니티에 대한 질문에 답해주는 채팅 UI",
         url: "https://chat.dalestudy.com",
       },
+      {
+        title: "커피챗",
+        desc: "매주 대화 상대를 자동으로 매칭해 주는 봇",
+        url: "https://coffee.dalestudy.com",
+      },
       { title: "스케줄러", desc: "모임 일정 조율 도구", url: "https://schedule.dalestudy.com" },
       {
         title: "에이전트 스킬",
@@ -151,6 +238,75 @@ export const ko: Messages = {
         url: "https://www.skills.sh/dalestudy/skills",
       },
     ],
+    reviewsTitle: "후기",
+    reviewsSub:
+      "참여자들이 직접 남긴 이야기입니다. 달레 스터디가 어떤 곳인지 가장 잘 보여주는 목소리들.",
+    reviews: [
+      {
+        program: "리트코드 스터디",
+        quote:
+          "달레 스터디는 15주간 풀어야 할 문제들의 로드맵을 제시하고, 서로의 코드를 리뷰하도록 강제합니다. 이 간단한 시스템이 매우 강력한 보조가 됩니다.",
+        author: "Ju Hwijung",
+        login: "hwi-middle",
+      },
+      {
+        program: "리트코드 스터디",
+        quote:
+          "몰랐던 자료구조들을 공부하고 선배 개발자분들께 코드 리뷰도 받는 등 주니어 개발자로서 하기 어려운 값진 경험을 하고 있습니다.",
+        author: "Sam Lee",
+        login: "SamTheKorean",
+      },
+      {
+        program: "리트코드 스터디",
+        quote:
+          "회사 밖의 생태계 안에서 수준 높은 리뷰어 분들의 피드백을 받을 수 있었습니다. 단순히 문제를 푸는 것을 넘어서, 어떻게 하면 더 좋은 코드를 작성할 수 있을지 많이 배웠습니다.",
+        author: "Reese",
+        login: "reeseo3o",
+      },
+      {
+        program: "리트코드 스터디",
+        quote:
+          "비슷한 목표를 가진 사람들과 함께이기에 꾸준히 문제풀이를 해낼 수 있었고, 다른 분들께 조금이라도 도움이 되었으면 하는 생각으로 풀이를 적다보니 코드도 좀 더 꼼꼼하게 쓸 수 있었습니다.",
+        author: "Dongyeong Chon",
+        login: "obzva",
+      },
+      {
+        program: "리트코드 스터디",
+        quote:
+          "가장 크게 달라진 건 문제를 대하는 접근 방식이에요. 예전엔 일단 코드부터 짜고 봤다면, 이제는 시간/공간 복잡도를 먼저 따져보고 어떤 자료구조와 알고리즘이 맞는지 생각한 다음 손을 대는 연습을 많이 할 수 있었어요.",
+        author: "E.M. Lee",
+        login: "jamiebase",
+      },
+      {
+        program: "리트코드 스터디",
+        quote:
+          "다양한 언어 사용자의 코드를 리뷰할 수 있는 달레스터디 시스템 덕분에 새로운 5개 언어를 배우며 완주했어요! 문제를 풀어 와서 리뷰만 올리면 어느새 모든 디렉토리의 기여자로 리더보드에 올라 있습니다.",
+        author: "yhkee0404",
+        login: "yhkee0404",
+      },
+      {
+        program: "달레 UI",
+        quote:
+          "실무에서도 해보기 어려운 디자인 시스템 릴리스 과정을 이슈 선택부터 릴리스까지 경험했습니다. 포트폴리오에 실제로 쓰이는 패키지가 생겼어요.",
+        author: "달레 UI 기여자",
+      },
+      {
+        program: "AI 스터디",
+        quote:
+          "발표가 부담스러웠는데, 매주 돌아가며 공유하다 보니 어느새 회사에서 AI 도구를 제일 먼저 써보는 사람이 되어 있었습니다.",
+        author: "AI 스터디 참가자",
+      },
+      {
+        program: "블로그 스터디",
+        quote:
+          "혼자서는 세 편을 못 넘겼는데, 함께 쓰니 완주가 보입니다. 동료들의 리액션과 피드백이 마감보다 강한 동기가 돼요.",
+        author: "블로그 스터디 참가자",
+      },
+    ],
+    reviewsCtaTitle: "당신의 이야기도 들려주세요",
+    reviewsCtaSub:
+      "활동 후기는 다음 참여자에게 가장 큰 도움이 됩니다. Discord에 자유롭게 남겨주세요.",
+    reviewsCtaBtn: "후기 남기기",
     cards: [
       {
         slug: "leetcode",
@@ -208,10 +364,16 @@ export const ko: Messages = {
       leetcode: {
         icon: "puzzle",
         title: "리트코드 스터디",
-        subtitleLinks: [{ label: "leetcode.dalestudy.com", url: "https://leetcode.dalestudy.com" }],
+        subtitleLinks: [
+          { label: "leetcode.dalestudy.com", url: "https://leetcode.dalestudy.com" },
+          {
+            label: "Discord #리트코드-스터디",
+            url: "https://discord.com/channels/775115965964222492/1229860988170403901",
+          },
+        ],
         overview:
           "개발자 해외 취업의 관문인 코딩 인터뷰를 준비하는 스터디입니다. 15주 동안 매주 5문제씩 Blind 75를 함께 풀고, 오픈소스 프로젝트처럼 GitHub PR로 답안을 제출해 상호 코드 리뷰를 합니다. 리더보드로 서로의 꾸준함을 응원합니다.",
-        tags: ["Blind 75", "매주 5문제", "GitHub PR 리뷰", "리더보드"],
+        tags: ["Blind 75", "매주 5문제", "GitHub PR", "코드 리뷰", "리더보드", "수료증"],
         captures: [
           {
             src: "/images/programs/leetcode-discussions.jpg",
@@ -269,8 +431,18 @@ export const ko: Messages = {
           },
         ],
         overview:
-          "일반 소프트웨어 개발자를 위한 실무 중심 AI 스터디입니다. LLM, 프롬프트 엔지니어링 같은 최신 기술과 오픈소스 AI 도구를 함께 익히고, 코드 생성과 업무 자동화처럼 개발 실무에 접목하는 방법을 매주 발표하고 토론합니다.",
-        tags: ["LLM", "프롬프트 엔지니어링", "실무 적용", "매주 세션"],
+          "일반 소프트웨어 개발자를 위한 실무 중심 AI 스터디입니다. LLM, 프롬프트 엔지니어링, 컨텍스트 엔지니어링, 하네스 엔지니어링, AI 에이전트, MCP, Skills 같은 최신 기술과 오픈소스 AI 도구를 함께 익히고, 코드 생성과 업무 자동화처럼 개발 실무에 접목하는 방법을 매주 발표하고 토론합니다.",
+        tags: [
+          "LLM",
+          "프롬프트 엔지니어링",
+          "컨텍스트 엔지니어링",
+          "하네스 엔지니어링",
+          "AI 에이전트",
+          "MCP",
+          "Skills",
+          "실무 적용",
+          "매주 세션",
+        ],
         captures: [
           {
             src: "/images/programs/ai-figjam-ideas.jpg",
@@ -298,7 +470,7 @@ export const ko: Messages = {
         ctaLabel: "Discord 채널 참여",
         ctaUrl: "https://discord.com/channels/775115965964222492/1374000564807012382",
         cta2Label: "GitHub 보기",
-        cta2Url: "https://github.com/DaleStudy",
+        cta2Url: "https://github.com/DaleStudy/ai-study",
       },
       blog: {
         icon: "penLine",
@@ -345,7 +517,7 @@ export const ko: Messages = {
         ctaLabel: "Discord 채널 참여",
         ctaUrl: "https://discord.com/channels/775115965964222492/1513687699729416232",
         cta2Label: "멤버들의 글 보기",
-        cta2Url: "https://github.com/DaleStudy",
+        cta2Url: "https://discord.com/channels/775115965964222492/1513688270087786656",
       },
       daleui: {
         icon: "palette",
@@ -360,7 +532,7 @@ export const ko: Messages = {
         ],
         overview:
           "한국어 환경에 특화된 오픈소스 React 디자인 시스템을 커뮤니티가 함께 만듭니다. 한국어 타이포그래피와 접근성(WCAG)을 최우선으로 고려하며, 디자이너와 개발자가 이슈 선택부터 PR 리뷰, 릴리스까지 실무와 같은 협업 프로세스를 그대로 경험합니다. npm에 배포되어 실제 프로젝트에서 사용됩니다.",
-        tags: ["한국어 특화", "접근성", "React", "npm 배포"],
+        tags: ["한국어", "접근성", "반응성", "React", "Figma", "Storybook", "npm"],
         captures: [
           {
             src: "/images/programs/daleui-cover.jpg",
@@ -414,7 +586,7 @@ export const ko: Messages = {
         ],
       },
       {
-        icon: "globe",
+        icon: "laptop",
         title: "모각코",
         desc: "음성 채널이 상시 열려 있습니다. 각자 자기 일을 하면서도 혼자가 아니라는 느낌이 꾸준함을 만듭니다. 마이크는 켜도, 꺼도 좋습니다.",
         detail:
@@ -463,7 +635,7 @@ export const ko: Messages = {
       },
     ],
     ctaTitle: "오늘 바로 시작하세요",
-    ctaSub: "가입 즉시 모든 활동에 참여할 수 있습니다. 준비물은 없습니다.",
+    ctaSub: "가입 즉시 모든 활동에 참여할 수 있습니다. 혼자 미루던 일을 함께 시작해보세요.",
   },
   sponsor: {
     title: "후원",
@@ -477,7 +649,7 @@ export const ko: Messages = {
     uses: [
       {
         icon: "globe",
-        title: "소프트웨어 & 클라우드",
+        title: "소프트웨어 & 인프라",
         desc: "커뮤니티 운영과 팀 프로젝트 진행에 필수적인 소프트웨어 구독료와 클라우드 사용료를 충당합니다.",
       },
       {
