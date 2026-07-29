@@ -1154,6 +1154,7 @@ a.showcase-card:hover {
 }
 
 .faq-list details > p {
+  max-width: 720px;
   margin: 0;
   padding: 0 4px 20px;
   font-size: 15px;

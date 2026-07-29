@@ -136,20 +136,18 @@ export function HomePage({ locale }: { locale: Locale }) {
         <h2 className="section-title" style={{ fontSize: "clamp(24px, 3.5vw, 32px)" }}>
           {t.home.faqTitle}
         </h2>
-        <div className="prose-section">
-          <div className="faq-list">
-            {t.home.faqs.map((faq) => (
-              <details key={faq.q}>
-                <summary>
-                  <span>{faq.q}</span>
-                  <span className="faq-chevron">
-                    <Icon name="chevronDown" size="sm" tone="brand" />
-                  </span>
-                </summary>
-                <p>{faq.a}</p>
-              </details>
-            ))}
-          </div>
+        <div className="faq-list">
+          {t.home.faqs.map((faq) => (
+            <details key={faq.q}>
+              <summary>
+                <span>{faq.q}</span>
+                <span className="faq-chevron">
+                  <Icon name="chevronDown" size="sm" tone="brand" />
+                </span>
+              </summary>
+              <p>{faq.a}</p>
+            </details>
+          ))}
         </div>
       </section>
 
