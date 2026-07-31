@@ -35,7 +35,7 @@ export const ko: Messages = {
     ],
     activities: [
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "커피챗",
         desc: "봇이 매주 대화 상대를 자동으로 매칭해 줍니다. 코드 얘기든 커리어 고민이든, 주제는 자유입니다.",
       },
@@ -151,7 +151,7 @@ export const ko: Messages = {
           "스스로 선택하고 책임지며 성장합니다. 서로 다른 출발점을 존중하기에 누구나 부담 없이 질문하고 도전할 수 있습니다.",
       },
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "소통과 협업",
         summary:
           "깃허브와 디스코드로 비동기 소통과 협업을 연습하며, 혼자서는 얻기 힘든 소프트 스킬과 실무 노하우를 쌓습니다.",
@@ -576,7 +576,7 @@ export const ko: Messages = {
     sub: "스터디가 전부는 아닙니다. 커피챗, 모각코, 밋업으로 연결을 이어갑니다.",
     sections: [
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "커피챗",
         desc: "봇이 매주 자동으로 대화 상대를 매칭해 줍니다. 슬래시 명령어 하나로 참여하고, 주제는 자유입니다. 커리어 고민부터 취미까지 무엇이든 좋습니다.",
         detail:

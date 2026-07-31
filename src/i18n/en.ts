@@ -35,7 +35,7 @@ export const en: Messages = {
     ],
     activities: [
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "Coffee chat",
         desc: "A bot matches conversation partners every week: code, career, or anything else.",
       },
@@ -153,7 +153,7 @@ export const en: Messages = {
           "Choose, own, and grow on your own terms. Because every starting point is respected, anyone can ask and take on challenges freely.",
       },
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "Communication & Collaboration",
         summary:
           "We practice async communication and collaboration on GitHub and Discord, building soft skills that are hard to gain alone.",
@@ -595,7 +595,7 @@ export const en: Messages = {
     sub: "Study groups are not everything: coffee chats, co-working, and meetups keep us connected.",
     sections: [
       {
-        icon: "messageCircle",
+        icon: "messageCircleMore",
         title: "Coffee chat",
         desc: "A bot matches conversation partners every week. Join with a single slash command. Any topic goes, from career questions to hobbies.",
         detail:
