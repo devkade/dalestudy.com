@@ -744,14 +744,16 @@ a.card-link:hover .mini-card {
 }
 
 .detail-subtitle a {
-  color: var(--colors-fg-neutral);
-  opacity: 0.65;
+  color: var(--colors-fg-brand);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .detail-subtitle a:hover {
-  opacity: 1;
-  color: var(--colors-fg-brand);
-  text-decoration: underline;
+  color: var(--colors-fg-brand-hover);
+  text-decoration-color: currentColor;
 }
 
 .detail-subtitle-sep {
