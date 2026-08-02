@@ -132,7 +132,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <section className="prose-section" style={{ padding: "72px 20px 8px" }}>
+      <section className="container" style={{ padding: "72px 0 8px" }}>
         <h2 className="section-title" style={{ fontSize: "clamp(24px, 3.5vw, 32px)" }}>
           {t.home.faqTitle}
         </h2>
